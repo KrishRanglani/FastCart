@@ -1,0 +1,123 @@
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+.hidden-image, .hidden-canvas {
+	display: none;
+}
+
+.main-map {
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+
+.link {
+	position: absolute;
+	top: 50px;
+	padding: 30px 40px 30px 40px;
+
+	text-decoration: none;
+	color: black;
+	font-size: 14t;
+}
+
+.link.active {
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+.link:hover {
+	background-color: #eee;
+}
+
+.now-link {
+	left: 50px;
+}
+
+.products-link {
+	left: 250px;
+}
+
+.right-panel {
+	position: absolute;
+	width: 650px;
+	height: 800px;
+	bottom: 50px;
+	right: 50px;
+}
+
+.inventory-block-inner {
+	padding-top: 50px;
+}
+
+.details {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.inventory-block.active {
+
+}
+
+.name-block {
+	float: left;
+	font-size: 20pt;
+	cursor: pointer;
+}
+
+.inventory-name {
+	font-weight: bold;
+}
+
+.total-price {
+	float: right;
+	font-size: 16pt;
+	color: #666;
+}
+
+.product-container {
+	top: 150px;
+	left: 50px;
+	position: absolute;
+}
+
+.search-bar {
+	width: 800px;
+}
+
+.product-name-container {
+	font-size: 16pt;
+	margin: 20px 10px 0px 50px;
+}
+
+.product-name-container div {
+	cursor: pointer;
+}
+
+.back-button {
+	cursor: pointer;
+	background-color: #ddd;
+	padding: 20px;
+	margin: 10px;
+	width: 100px;
+}
+
+.back-button:hover {
+	background-color: #eee;
+}
+
+.details div {
+	cursor: pointer;
+}
+
+.active-product-name {
+	margin-left: 20px;
+	font-size: 18pt;
+}
+
+.active-product-price {
+	margin-left: 20px;
+	font-size: 14pt;
+	color: #444;
+}
